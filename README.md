@@ -2,7 +2,7 @@
 
 ## Get all manufacturers
 
-- **Endpoint:** `https://github.com/fdfre/cashif-api/edit/main/README.md`
+- **Endpoint:** `https://cashif.online/back-end/public/api/all-manufacturers`
 - **Method:** `GET`
 
 #### Request
