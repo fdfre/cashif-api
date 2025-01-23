@@ -121,9 +121,17 @@
 
 ## Note about links:
 
-If user select `فحص ما قبل الشراء` the link should be:
+If user select `فحص ما قبل الشراء` the plans links should be:
 
 `https://cashif.cc/pay/?plan={plan}&year_id={year_id}&car_model_id={car_model_id}&price_id={price_id}&affiliate=mshrai` 
+
+- **Parameter:** `plan` `year_id` `car_model_id` `price_id`
+
+<br>
+
+If user select `فحص مخدوم` the plans links should be:
+
+`https://cashif.cc/check-it/receipt/?plan={plan}&year_id={year_id}&car_model_id={car_model_id}&price_id={price_id}&affiliate=mshrai` 
 
 - **Parameter:** `plan` `year_id` `car_model_id` `price_id`
 
