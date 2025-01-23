@@ -27,6 +27,8 @@
 }
 ```
 
+<br><br>
+
 ## Get models by manufacture id
 
 - **Endpoint:** `https://cashif.online/back-end/public/api/all-models-by-manufacture-id/{manufactureId}`
@@ -53,6 +55,8 @@
     ]
 }
 ```
+
+<br><br>
 
 ## Get plans prices by model id and year id
 
@@ -90,6 +94,8 @@
 ]
 ```
 
+<br><br>
+
 ## Note about year
 
 ```javascript
@@ -99,6 +105,8 @@
     year_id = 1;
   }
 ```
+
+<br><br>
 
 ## Note about "نوع طلب الفحص"
 
