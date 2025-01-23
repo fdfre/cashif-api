@@ -121,7 +121,9 @@
 
 ## Note about links:
 
-If user select `فحص ما قبل الشراء` the link should be `https://cashif.cc/pay/?plan={plan}&year_id={year_id}&car_model_id={car_model_id}&price_id={price_id}&affiliate=mshrai` 
+If user select `فحص ما قبل الشراء` the link should be:
+
+`https://cashif.cc/pay/?plan={plan}&year_id={year_id}&car_model_id={car_model_id}&price_id={price_id}&affiliate=mshrai` 
 
 - **Parameter:** `plan` `year_id` `car_model_id` `price_id`
 
