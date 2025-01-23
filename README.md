@@ -7,21 +7,31 @@
 
 
 #### Response
-- **Status Code:** 200 OK
-- **Body:**
+
 ```json
-[
-    {
-        "id": 1,
-        "title": "1984",
-        "author": "George Orwell",
-        "published_date": "1949-06-08"
-    },
-    {
-        "id": 2,
-        "title": "To Kill a Mockingbird",
-        "author": "Harper Lee",
-        "published_date": "1960-07-11"
-    }
-]
+{
+    "manufacturers": [
+        {
+            "id": 43,
+            "manufacture_name": "Alfa Romeo"
+        },
+        {
+            "id": 13,
+            "manufacture_name": "Aston Martin"
+        },
+        {
+            "id": 14,
+            "manufacture_name": "Audi"
+        },
+    ]
+}
+```
+
+## Get all manufacturers
+
+- **Endpoint:** `https://cashif.online/back-end/public/api/all-manufacturers`
+- **Method:** `GET`
+
+
+#### Response
 
