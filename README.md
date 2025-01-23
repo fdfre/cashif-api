@@ -119,7 +119,7 @@
 
 <br><br>
 
-## Note about links:
+## Note about plans links:
 
 If user select `فحص ما قبل الشراء` the plans links should be:
 
@@ -129,7 +129,7 @@ If user select `فحص ما قبل الشراء` the plans links should be:
 
 <br>
 
-If user select `فحص مخدوم` the plans links should be:
+If user select `فحص مخدوم` only 2 plans shold show `شامل` , `أساسي` and the plans links should be:
 
 `https://cashif.cc/check-it/receipt/?plan={plan}&year_id={year_id}&car_model_id={car_model_id}&price_id={price_id}&affiliate=mshrai` 
 
