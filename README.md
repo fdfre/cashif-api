@@ -37,18 +37,18 @@
 
 ```json
 {
-    "manufacturers": [
-        {
-            "id": 1,
-            "manufacture_name": "Toyota"
-        },
-        {
-            "id": 2,
-            "manufacture_name": "Kia"
-        },
+    "carModels": [
         {
             "id": 3,
-            "manufacture_name": "Audi"
+            "model_name": "اكورد - Accord"
+        },
+        {
+            "id": 5,
+            "model_name": "انتيجرا - Integra"
+        },
+        {
+            "id": 1,
+            "model_name": "اوديسي - Odyssey"
         },
     ]
 }
