@@ -92,7 +92,7 @@
 
 ## Note
 
-```json
+```javascript
   if (yearValue >= 2015) {
     year_id = 2;
   } else {
