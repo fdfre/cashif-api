@@ -54,3 +54,38 @@
 }
 ```
 
+## Get plans prices by model id and year id
+
+- **Endpoint:** `https://cashif.online/back-end/public/api/all-plans-prices-by-model-id/{modelId}/and-year-id/{yearId}`
+- **Method:** `GET`
+- **Parameter:** `modelId` and `yearId`
+
+#### Response
+
+```json
+[
+    {
+        "manufacturer": "Toyota",
+        "model": "كامري - Camry",
+        "car_model_id": "56",
+        "year_id": "2",
+        "prices": [
+            {
+                "price_id": 0,
+                "plan": "شامل",
+                "price": "560.00"
+            },
+            {
+                "price_id": 1,
+                "plan": "أساسي",
+                "price": "430.00"
+            },
+            {
+                "price_id": 2,
+                "plan": "محركات",
+                "price": "300.00"
+            }
+        ]
+    }
+]
+```
