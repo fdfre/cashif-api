@@ -58,6 +58,18 @@
 
 <br><br>
 
+## Year (السنة)
+
+```javascript
+  if (yearValue >= 2015) {
+    year_id = 2;
+  } else {
+    year_id = 1;
+  }
+```
+
+<br><br>
+
 ## Get plans prices by model id and year id
 
 - **Endpoint:** `https://cashif.online/back-end/public/api/all-plans-prices-by-model-id/{modelId}/and-year-id/{yearId}`
@@ -94,17 +106,7 @@
 ]
 ```
 
-<br><br>
 
-## Note about year (السنة)
-
-```javascript
-  if (yearValue >= 2015) {
-    year_id = 2;
-  } else {
-    year_id = 1;
-  }
-```
 
 <br><br>
 
