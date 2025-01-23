@@ -29,7 +29,7 @@
 
 <br><br>
 
-## Get models by manufacture id
+## Get models by manufacture id (فئة السيارة)
 
 - **Endpoint:** `https://cashif.online/back-end/public/api/all-models-by-manufacture-id/{manufactureId}`
 - **Method:** `GET`
@@ -96,7 +96,7 @@
 
 <br><br>
 
-## Note about year
+## Note about year (السنة)
 
 ```javascript
   if (yearValue >= 2015) {
@@ -114,3 +114,19 @@
 
 - **1:** `فحص ما قبل الشراء`
 - **2:** `فحص مخدوم`
+
+<br><br>
+
+## Note about
+
+
+
+
+
+
+
+
+
+
+
+
