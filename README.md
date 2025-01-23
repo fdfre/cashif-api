@@ -92,4 +92,10 @@
 
 ## Note
 
-### yearId 
+```json
+  if (yearValue >= 2015) {
+    year_id = 2;
+  } else {
+    year_id = 1;
+  }
+```
