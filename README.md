@@ -70,7 +70,7 @@
 
 <br><br>
 
-## Get plans prices by model id and year id
+## Get plans & prices by model id and year id
 
 - **Endpoint:** `https://cashif.online/back-end/public/api/all-plans-prices-by-model-id/{modelId}/and-year-id/{yearId}`
 - **Method:** `GET`
@@ -121,7 +121,7 @@
 
 ## Note about plans links:
 
-If user select `فحص ما قبل الشراء` the plans links should be:
+If user select `فحص ما قبل الشراء` the links of plans should be:
 
 `https://cashif.cc/pay/?plan={plan}&year_id={year_id}&car_model_id={car_model_id}&price_id={price_id}&affiliate=mshrai` 
 
@@ -129,7 +129,7 @@ If user select `فحص ما قبل الشراء` the plans links should be:
 
 <br>
 
-If user select `فحص مخدوم` only 2 plans shold show `شامل` , `أساسي` and the plans links should be:
+If user select `فحص مخدوم` only 2 plans should show `شامل` , `أساسي` and the links of plans should be:
 
 `https://cashif.cc/check-it/receipt/?plan={plan}&year_id={year_id}&car_model_id={car_model_id}&price_id={price_id}&affiliate=mshrai` 
 
