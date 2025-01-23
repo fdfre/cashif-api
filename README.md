@@ -1,6 +1,6 @@
 # API Documentation
 
-## Get all manufacturers
+## Get all manufacturers (ماركة السيارة)
 
 - **Endpoint:** `https://cashif.online/back-end/public/api/all-manufacturers`
 - **Method:** `GET`
