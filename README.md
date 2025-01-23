@@ -90,7 +90,7 @@
 ]
 ```
 
-## Note
+## Note about year
 
 ```javascript
   if (yearValue >= 2015) {
@@ -99,3 +99,10 @@
     year_id = 1;
   }
 ```
+
+## Note about "نوع طلب الفحص"
+
+### In cashif we have 2 type:
+
+- **1:** `فحص ما قبل الشراء`
+- **2:** `فحص مخدوم`
